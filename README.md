@@ -10,34 +10,6 @@ An ETL pipeline for validating and processing JSON metadata and CSV data files u
 
 ---
 
-## 📁 Project Structure Overview
-```
-
-etl\_project\_16July/
-├── data/
-│   └── Henry/
-│       ├── input/
-│       │   ├── provider\_001.json
-│       │   └── provider\_001\_details.csv
-│       ├── Issue/
-│       └── output/
-├── src/
-│   ├── main/
-│   │   └── main.py
-│   ├── config/
-│   │   ├── validation\_rules.json
-│   │   ├── file\_types.json
-│   │   ├── settings.json
-│   │   └── error\_messages.json
-│   └── utils/
-│       ├── validator.py
-│       ├── filehandler.py
-│       └── logger.py
-├── logs/
-│   └── pipeline.log
-
-````
-
 ---
 
 ## 🔄 ETL Pipeline Flow (Visualized with Mermaid)
